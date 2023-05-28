@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-28T12:26:22.445Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="b46O3pFW5ITvOmAQjtCx" version="21.3.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-05-28T12:30:18.561Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="C_AXi-zg8aKIDlrqJeHN" version="21.3.3" type="github" pages="4">
   <diagram name="第 1 页" id="pVZJuv3Ka7XM1kJRa0wD">
-    <mxGraphModel dx="516" dy="349" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1061" dy="717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -735,10 +735,10 @@
           <mxGeometry x="1451.25" y="1695" width="57.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9UAns0AT2lboaPjRgmIk-219" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="1250" y="1690" width="20" height="660" as="geometry" />
+          <mxGeometry x="1250" y="1690" width="20" height="680" as="geometry" />
         </mxCell>
         <mxCell id="9UAns0AT2lboaPjRgmIk-220" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="9UAns0AT2lboaPjRgmIk-219">
-          <mxGeometry x="5" y="90" width="10" height="510" as="geometry" />
+          <mxGeometry x="5" y="90" width="10" height="570" as="geometry" />
         </mxCell>
         <mxCell id="9UAns0AT2lboaPjRgmIk-221" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" target="9UAns0AT2lboaPjRgmIk-216">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -882,6 +882,139 @@
               <mxPoint x="1420" y="1889.56" />
             </Array>
             <mxPoint x="1395" y="1889.56" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9UAns0AT2lboaPjRgmIk-253" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="1555" y="2000" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9UAns0AT2lboaPjRgmIk-254" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;提交扫描信息&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" target="9UAns0AT2lboaPjRgmIk-253">
+          <mxGeometry x="0.3699" relative="1" as="geometry">
+            <mxPoint x="1510" y="2000" as="sourcePoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1270" y="2000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9UAns0AT2lboaPjRgmIk-255" value="显示更新后的扫描信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="9UAns0AT2lboaPjRgmIk-253">
+          <mxGeometry x="0.1111" relative="1" as="geometry">
+            <mxPoint x="1270" y="2050" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9UAns0AT2lboaPjRgmIk-256" value="更改扫描信息" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="9UAns0AT2lboaPjRgmIk-253" target="9UAns0AT2lboaPjRgmIk-253">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1570" y="2000" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1590" y="2000" />
+              <mxPoint x="1590" y="2030" />
+            </Array>
+            <mxPoint x="1570" y="2040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9UAns0AT2lboaPjRgmIk-257" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="1635" y="2070" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9UAns0AT2lboaPjRgmIk-258" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;提交扫描信息&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" target="9UAns0AT2lboaPjRgmIk-257">
+          <mxGeometry x="0.3699" relative="1" as="geometry">
+            <mxPoint x="1590" y="2070" as="sourcePoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1270" y="2070" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9UAns0AT2lboaPjRgmIk-259" value="显示更新后的扫描信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="9UAns0AT2lboaPjRgmIk-257">
+          <mxGeometry x="0.1111" relative="1" as="geometry">
+            <mxPoint x="1280" y="2120" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9UAns0AT2lboaPjRgmIk-260" value="更改扫描信息" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="9UAns0AT2lboaPjRgmIk-257" target="9UAns0AT2lboaPjRgmIk-257">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1650" y="2070" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1670" y="2070" />
+              <mxPoint x="1670" y="2100" />
+            </Array>
+            <mxPoint x="1650" y="2110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9UAns0AT2lboaPjRgmIk-261" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="1713.75" y="2150" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9UAns0AT2lboaPjRgmIk-262" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;提交扫描信息&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" target="9UAns0AT2lboaPjRgmIk-261">
+          <mxGeometry x="0.3699" relative="1" as="geometry">
+            <mxPoint x="1668.75" y="2150" as="sourcePoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1270" y="2150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9UAns0AT2lboaPjRgmIk-263" value="显示更新后的扫描信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="9UAns0AT2lboaPjRgmIk-261">
+          <mxGeometry x="0.1111" relative="1" as="geometry">
+            <mxPoint x="1280" y="2200" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9UAns0AT2lboaPjRgmIk-264" value="更改扫描信息" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="9UAns0AT2lboaPjRgmIk-261" target="9UAns0AT2lboaPjRgmIk-261">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1728.75" y="2150" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1748.75" y="2150" />
+              <mxPoint x="1748.75" y="2180" />
+            </Array>
+            <mxPoint x="1728.75" y="2190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9UAns0AT2lboaPjRgmIk-265" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="1785" y="2220" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9UAns0AT2lboaPjRgmIk-266" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;提交扫描信息&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" target="9UAns0AT2lboaPjRgmIk-265">
+          <mxGeometry x="0.3699" relative="1" as="geometry">
+            <mxPoint x="1740" y="2220" as="sourcePoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1270" y="2220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9UAns0AT2lboaPjRgmIk-267" value="显示更新后的扫描信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="9UAns0AT2lboaPjRgmIk-265">
+          <mxGeometry x="0.1111" relative="1" as="geometry">
+            <mxPoint x="1280" y="2270" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9UAns0AT2lboaPjRgmIk-268" value="更改扫描信息" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="9UAns0AT2lboaPjRgmIk-265" target="9UAns0AT2lboaPjRgmIk-265">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1800" y="2220" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1820" y="2220" />
+              <mxPoint x="1820" y="2250" />
+            </Array>
+            <mxPoint x="1800" y="2260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9UAns0AT2lboaPjRgmIk-269" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="1865" y="2300" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9UAns0AT2lboaPjRgmIk-270" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;提交扫描信息&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" target="9UAns0AT2lboaPjRgmIk-269">
+          <mxGeometry x="0.3699" relative="1" as="geometry">
+            <mxPoint x="1820" y="2300" as="sourcePoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1270" y="2300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9UAns0AT2lboaPjRgmIk-271" value="显示更新后的扫描信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="9UAns0AT2lboaPjRgmIk-269">
+          <mxGeometry x="0.6751" relative="1" as="geometry">
+            <mxPoint x="1660" y="2350" as="targetPoint" />
+            <mxPoint x="1" as="offset" />
+            <Array as="points">
+              <mxPoint x="1270" y="2350" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
